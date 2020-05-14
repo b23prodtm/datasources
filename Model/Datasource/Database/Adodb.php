@@ -416,7 +416,7 @@ class Adodb extends DboSource {
  *
  * @param array $results
  */
-	public function resultSet(&$results) {
+	public function resultSet($results) {
 		$numFields = count($results);
 		$fields = array_keys($results);
 		$this->results =& $results;

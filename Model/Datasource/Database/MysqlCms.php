@@ -1,8 +1,15 @@
 <?php
-App::uses('Mysql', 'Model/Datasource/Database');
+App::uses('MysqlLog', 'Datasources.Model/Datasource/Database');
 
-class MysqlCms extends Mysql
+class MysqlCms extends MysqlLog
 {
+	/**
+	 * Datasource Description
+	 *
+	 * @var string
+	 */
+	public $description = 'MariaDB/MySQL Logging DBO Driver';
+
 	public function __construct($config = null, $autoConnect = true) {
 		parent::__construct($config, $autoConnect);
 		$this->columns['mediumbinary'] = array('name' => 'mediumblob');
