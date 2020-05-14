@@ -1,9 +1,9 @@
 {
-    "name": "cakephp/datasources",
+    "name": "betothreeprod/datasources",
     "description": "CakePHP Datasources Plugin",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "datasources", "adodb", "couchdb", "db2", "firebird", "ldap", "odbc", "sqlserver", "sqlite", "sybase"],
-    "homepage": "https://github.com/cakephp/datasources",
+    "keywords": ["b23prodtm", "datasources", "adodb", "couchdb", "db2", "firebird", "ldap", "odbc", "sqlserver", "sqlite", "sybase"],
+    "homepage": "https://github.com/b23prodtm/datasources",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,10 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/cakephp/datasources/issues",
+        "issues": "https://github.com/b23prodtm/datasources/issues",
         "forum": "http://stackoverflow.com/tags/cakephp",
         "irc": "irc://irc.freenode.org/cakephp",
-        "source": "https://github.com/cakephp/datasources"
+        "source": "https://github.com/b23prodtm/datasources"
     },
     "require": {
         "php": ">=5.2.8",
