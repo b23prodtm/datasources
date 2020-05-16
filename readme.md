@@ -48,7 +48,7 @@ or, if using one of the pdo extended datasources,
 
 	class DATABASE_CONFIG {
 		public $mySource = array(
-			'driver' => 'Datasources.Database/Firebird',
+			'datasource' => 'Datasources.Database/Firebird',
 			...
 			);
 		}
